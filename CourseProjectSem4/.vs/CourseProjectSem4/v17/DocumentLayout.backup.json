@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\lab_5\\CourseProjectSem4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\users\\user\\documents\\github\\lab_5\\courseprojectsem4\\courseprojectsem4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\lab_5\\CourseProjectSem4\\CourseProjectSem4\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CourseProjectSem4\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\lab_5\\CourseProjectSem4\\CourseProjectSem4\\MainWindow.xaml.cs",
+              "RelativeToolTip": "CourseProjectSem4\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T17:59:41.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
