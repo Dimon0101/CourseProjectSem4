@@ -8,23 +8,23 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
-    "G:\\Новая папка (3)\\NuGetPackages": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\lab_5\\CourseProjectSem4\\CourseProjectSem4\\CourseProjectSem4.csproj",
+      "projectUniqueName": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\CourseProjectSem4\\CourseProjectSem4.csproj",
       "projectName": "CourseProjectSem4",
-      "projectPath": "C:\\Users\\user\\Documents\\GitHub\\lab_5\\CourseProjectSem4\\CourseProjectSem4\\CourseProjectSem4.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Documents\\GitHub\\lab_5\\CourseProjectSem4\\CourseProjectSem4\\obj\\",
+      "projectPath": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\CourseProjectSem4\\CourseProjectSem4.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\CourseProjectSem4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "G:\\Новая папка (3)\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
