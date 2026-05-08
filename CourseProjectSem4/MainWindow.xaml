@@ -1,0 +1,688 @@
+<Window x:Class="CourseProjectSem4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        Title="Grand Hotel — Система управління"
+        Height="760" Width="1200" MinHeight="640" MinWidth="960"
+        Background="#F0F4F8">
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolVis"/>
+
+        <Style x:Key="RoundBtn" TargetType="Button">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="Bg"
+                                Background="{TemplateBinding Background}"
+                                CornerRadius="6"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Bg" Property="Opacity" Value="0.85"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="Bg" Property="Opacity" Value="0.7"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter TargetName="Bg" Property="Opacity" Value="0.35"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="NavBtn" TargetType="Button">
+            <Setter Property="Foreground" Value="#A8C0DC"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Height" Value="46"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="Bg"
+                                Background="{TemplateBinding Background}"
+                                CornerRadius="7" Padding="14,0">
+                            <ContentPresenter VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Bg" Property="Background" Value="#253D68"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <DropShadowEffect x:Key="CardShadow"
+                          BlurRadius="12" ShadowDepth="2"
+                          Opacity="0.10" Direction="270"/>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="220"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <DockPanel Grid.Column="0" Background="#1A2A4A" LastChildFill="False">
+
+            <Border DockPanel.Dock="Top" Padding="20,24,20,20"
+                    BorderBrush="#2C4270" BorderThickness="0,0,0,1">
+                <StackPanel>
+                    <TextBlock Text="🏨" FontSize="30" Margin="0,0,0,6"/>
+                    <TextBlock Text="Grand Hotel" Foreground="White"
+                               FontSize="17" FontWeight="Bold"/>
+                    <TextBlock Text="Система управління" Foreground="#5C7EA8"
+                               FontSize="11" Margin="0,2,0,0"/>
+                </StackPanel>
+            </Border>
+            <Border DockPanel.Dock="Top" x:Name="AdminBadge"
+                    Margin="10,6" CornerRadius="7" Padding="12,7">
+                <Border.Background>
+                    <SolidColorBrush x:Name="AdminBadgeBrush" Color="#607D8B"/>
+                </Border.Background>
+                <Grid>
+                    <TextBlock x:Name="AdminModeLabel" Text="Режим: Гість"
+                               Foreground="White" FontSize="12" FontWeight="SemiBold"
+                               VerticalAlignment="Center"/>
+                    <Button x:Name="AdminToggleBtn" Content="Увійти"
+                            HorizontalAlignment="Right"
+                            Foreground="White" FontSize="11"
+                            Cursor="Hand" BorderThickness="0"
+                            Background="Transparent"
+                            Click="AdminToggle_Click"/>
+                </Grid>
+            </Border>
+
+            <TextBlock DockPanel.Dock="Top"
+                       Text="НАВІГАЦІЯ" Foreground="#3D5A80"
+                       FontSize="10" FontWeight="Bold" Margin="20,18,0,6"/>
+
+            <Button x:Name="NavRoomsBtn"  DockPanel.Dock="Top"
+                    Content="🛏   Кімнати"
+                    Style="{StaticResource NavBtn}"
+                    Background="#253D68" Foreground="White"
+                    Margin="10,2" Click="NavRooms_Click"/>
+
+            <Button x:Name="NavOrdersBtn" DockPanel.Dock="Top"
+                    Content="📋   Замовлення"
+                    Style="{StaticResource NavBtn}"
+                    Background="Transparent"
+                    Margin="10,2" Click="NavOrders_Click"/>
+
+            <Button x:Name="NavPricesBtn" DockPanel.Dock="Top"
+                    Content="⚙   Ціни"
+                    Style="{StaticResource NavBtn}"
+                    Background="Transparent"
+                    Margin="10,2" Click="NavPrices_Click"/>
+
+            <Button x:Name="NavLogBtn"    DockPanel.Dock="Top"
+                    Content="📜   Журнал"
+                    Style="{StaticResource NavBtn}"
+                    Background="Transparent"
+                    Margin="10,2" Click="NavLog_Click"/>
+
+            <Button x:Name="ChangePasswordBtn" DockPanel.Dock="Top"
+                    Content="🔑   Змінити пароль"
+                    Style="{StaticResource NavBtn}"
+                    Background="Transparent"
+                    Visibility="Collapsed"
+                    Margin="10,2" Click="ChangePassword_Click"/>
+            <Border DockPanel.Dock="Bottom" Padding="20,16"
+                    BorderBrush="#2C4270" BorderThickness="0,1,0,0">
+                <StackPanel>
+                    <TextBlock Text="СТАТИСТИКА" Foreground="#3D5A80"
+                               FontSize="10" FontWeight="Bold" Margin="0,0,0,10"/>
+                    <Grid Margin="0,0,0,6">
+                        <TextBlock Text="Всього кімнат" Foreground="#5C7EA8" FontSize="12"/>
+                        <TextBlock x:Name="StatTotal" HorizontalAlignment="Right"
+                                   Foreground="White" FontSize="12" FontWeight="Bold"/>
+                    </Grid>
+                    <Grid Margin="0,0,0,6">
+                        <TextBlock Text="Вільних" Foreground="#5C7EA8" FontSize="12"/>
+                        <TextBlock x:Name="StatFree" HorizontalAlignment="Right"
+                                   Foreground="#4DB87A" FontSize="12" FontWeight="Bold"/>
+                    </Grid>
+                    <Grid Margin="0,0,0,6">
+                        <TextBlock Text="Зайнятих" Foreground="#5C7EA8" FontSize="12"/>
+                        <TextBlock x:Name="StatOccupied" HorizontalAlignment="Right"
+                                   Foreground="#E07070" FontSize="12" FontWeight="Bold"/>
+                    </Grid>
+                    <Separator Background="#2C4270" Margin="0,6"/>
+                    <Grid Margin="0,0,0,4">
+                        <TextBlock Text="Завершено замовлень" Foreground="#5C7EA8" FontSize="11"/>
+                        <TextBlock x:Name="StatCompleted" HorizontalAlignment="Right"
+                                   Foreground="#A8C0DC" FontSize="11" FontWeight="Bold"/>
+                    </Grid>
+                    <Grid>
+                        <TextBlock Text="Загальна виручка" Foreground="#5C7EA8" FontSize="11"/>
+                        <TextBlock x:Name="StatRevenue" HorizontalAlignment="Right"
+                                   Foreground="#FFD54F" FontSize="11" FontWeight="Bold"/>
+                    </Grid>
+                </StackPanel>
+            </Border>
+        </DockPanel>
+        <Grid Grid.Column="1">
+            <Grid x:Name="RoomsPanel" Visibility="Visible">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Grid.Row="0" Background="White" Padding="24,16"
+                        BorderBrush="#DDE6EF" BorderThickness="0,0,0,1">
+                    <Grid>
+                        <StackPanel VerticalAlignment="Center">
+                            <TextBlock Text="Кімнати" FontSize="20"
+                                       FontWeight="Bold" Foreground="#1A2A4A"/>
+                            <TextBlock x:Name="RoomsSubtitle"
+                                       FontSize="12" Foreground="#8899AA" Margin="0,2,0,0"/>
+                        </StackPanel>
+                        <Button HorizontalAlignment="Right"
+                                x:Name="AddRoomBtn"
+                                IsEnabled="False"
+                                Content="＋  Додати кімнату"
+                                Style="{StaticResource RoundBtn}"
+                                Background="#4A90D9" Padding="16,9"
+                                Click="ToggleAddRoom_Click"/>
+                    </Grid>
+                </Border>
+
+                <Border x:Name="AddRoomForm" Grid.Row="1"
+                        Background="#F7FAFD" Padding="24,14"
+                        BorderBrush="#DDE6EF" BorderThickness="0,0,0,1"
+                        Visibility="Collapsed">
+                    <WrapPanel>
+                        <StackPanel Margin="0,0,20,0">
+                            <TextBlock Text="Тип кімнати" FontSize="12"
+                                       Foreground="#666" Margin="0,0,0,5"/>
+                            <ComboBox x:Name="AddRoomTypeBox" Width="140" Height="32">
+                                <ComboBoxItem Content="Бюджетний" IsSelected="True"/>
+                                <ComboBoxItem Content="Стандарт"/>
+                                <ComboBoxItem Content="Делюкс"/>
+                            </ComboBox>
+                        </StackPanel>
+                        <StackPanel Margin="0,0,24,0" VerticalAlignment="Bottom">
+                            <CheckBox x:Name="AddRoomWifi" Content="Wi-Fi" Margin="0,0,0,5"/>
+                            <CheckBox x:Name="AddRoomAllInclusive" Content="All Inclusive"/>
+                        </StackPanel>
+                        <Button Content="Додати"
+                                Style="{StaticResource RoundBtn}"
+                                Background="#27AE60" Padding="20,10"
+                                VerticalAlignment="Bottom"
+                                Click="AddRoom_Click"/>
+                    </WrapPanel>
+                </Border>
+
+                <ScrollViewer Grid.Row="2"
+                              VerticalScrollBarVisibility="Auto"
+                              HorizontalScrollBarVisibility="Disabled">
+                    <ItemsControl x:Name="RoomsItemsControl" Margin="16,12">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Border Width="172" Margin="8" Background="White"
+                                        CornerRadius="10" Effect="{StaticResource CardShadow}">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="5"/>
+                                            <RowDefinition Height="*"/>
+                                        </Grid.RowDefinitions>
+                                        <Border Grid.Row="0" Background="{Binding TypeBrush}"
+                                                CornerRadius="10,10,0,0"/>
+                                        <StackPanel Grid.Row="1" Margin="14,12,14,14">
+                                            <Border Background="{Binding TypeLightBrush}"
+                                                    CornerRadius="4" Padding="7,3"
+                                                    HorizontalAlignment="Left" Margin="0,0,0,8">
+                                                <TextBlock Text="{Binding TypeName}"
+                                                           Foreground="{Binding TypeBrush}"
+                                                           FontSize="10" FontWeight="SemiBold"/>
+                                            </Border>
+                                            <TextBlock Text="{Binding DisplayNumber}"
+                                                       FontSize="26" FontWeight="Bold"
+                                                       Foreground="#1A2A4A" Margin="0,0,0,8"/>
+                                            <WrapPanel Margin="0,0,0,10">
+                                                <Border Background="#EBF4FF" CornerRadius="3"
+                                                        Padding="6,2" Margin="0,0,4,4"
+                                                        Visibility="{Binding HasWiFi, Converter={StaticResource BoolVis}}">
+                                                    <TextBlock Text="Wi-Fi" FontSize="10" Foreground="#1565C0"/>
+                                                </Border>
+                                                <Border Background="#FFF3E0" CornerRadius="3"
+                                                        Padding="6,2" Margin="0,0,0,4"
+                                                        Visibility="{Binding HasAllInclusive, Converter={StaticResource BoolVis}}">
+                                                    <TextBlock Text="All Inc." FontSize="10" Foreground="#E65100"/>
+                                                </Border>
+                                            </WrapPanel>
+                                            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                                                <TextBlock Text="{Binding BasePrice}"
+                                                           FontSize="16" FontWeight="Bold"
+                                                           Foreground="#1A2A4A"/>
+                                                <TextBlock Text=" грн/ніч" FontSize="11"
+                                                           Foreground="#8899AA"
+                                                           VerticalAlignment="Bottom"
+                                                           Margin="0,0,0,1"/>
+                                            </StackPanel>
+                                            <Border Background="{Binding StatusBrush}"
+                                                    CornerRadius="5" Padding="0,5"
+                                                    Margin="0,0,0,10">
+                                                <TextBlock Text="{Binding StatusText}"
+                                                           HorizontalAlignment="Center"
+                                                           FontSize="11" FontWeight="SemiBold"
+                                                           Foreground="{Binding StatusTextBrush}"/>
+                                            </Border>
+                                            <Button Content="Забронювати"
+                                                    IsEnabled="{Binding CanBook}"
+                                                    Style="{StaticResource RoundBtn}"
+                                                    Background="#4A90D9"
+                                                    Height="30" FontSize="11"
+                                                    Tag="{Binding}"
+                                                    Click="BookRoom_Click"/>
+                                            <Button x:Name="DeleteRoomBtn"
+                                                    Content="🗑  Видалити"
+                                                    IsEnabled="{Binding CanDelete}"
+                                                    Style="{StaticResource RoundBtn}"
+                                                    Background="#B0BEC5"
+                                                    Height="26" FontSize="10"
+                                                    Margin="0,4,0,0"
+                                                    Tag="{Binding}"
+                                                    Visibility="Collapsed"
+                                                    Click="DeleteRoom_Click"/>
+                                        </StackPanel>
+                                    </Grid>
+                                </Border>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </ScrollViewer>
+            </Grid>
+            <Grid x:Name="OrdersPanel" Visibility="Collapsed">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Border Grid.Row="0" Background="White" Padding="24,16"
+                        BorderBrush="#DDE6EF" BorderThickness="0,0,0,1">
+                    <StackPanel>
+                        <TextBlock Text="Нове замовлення" FontSize="20"
+                                   FontWeight="Bold" Foreground="#1A2A4A"
+                                   Margin="0,0,0,14"/>
+                        <StackPanel>
+                        <WrapPanel Margin="0,0,0,10">
+                            <StackPanel Margin="0,0,16,0">
+                                <TextBlock Text="Кімната" FontSize="12"
+                                           Foreground="#666" Margin="0,0,0,5"/>
+                                <ComboBox x:Name="OrderRoomBox" Width="220" Height="32"
+                                          SelectionChanged="OrderRoomBox_SelectionChanged"/>
+                            </StackPanel>
+                            <StackPanel Margin="0,0,16,0">
+                                <TextBlock Text="Ім'я гостя" FontSize="12"
+                                           Foreground="#666" Margin="0,0,0,5"/>
+                                <TextBox x:Name="OrderGuestBox" Width="160" Height="32"
+                                         Padding="8,0" VerticalContentAlignment="Center"/>
+                            </StackPanel>
+                                                            <StackPanel Margin="0,0,16,0">
+                                    <TextBlock Text="Дата заїзду" FontSize="12"
+                                               Foreground="#666" Margin="0,0,0,5"/>
+                                    <DatePicker x:Name="OrderCheckInPicker"
+                                                Width="140" Height="32"
+                                                DisplayDateStart="{x:Static sys:DateTime.Today}"
+                                                SelectedDateChanged="OrderCheckInPicker_Changed"/>
+                                </StackPanel>
+                                <StackPanel Margin="0,0,16,0">
+                                    <TextBlock Text="Кількість ночей" FontSize="12"
+                                               Foreground="#666" Margin="0,0,0,5"/>
+                                    <TextBox x:Name="OrderDaysBox" Width="80" Height="32"
+                                             Padding="8,0" VerticalContentAlignment="Center"
+                                             Text="1" TextChanged="OrderDaysBox_TextChanged"/>
+                                </StackPanel>
+                                <StackPanel Margin="0,0,16,0">
+                                    <TextBlock Text="Дата виїзду" FontSize="12"
+                                               Foreground="#666" Margin="0,0,0,5"/>
+                                    <Border Background="#F7FAFD" BorderBrush="#CDD6E0"
+                                            BorderThickness="1" CornerRadius="4"
+                                            Height="32" Width="120" Padding="8,0">
+                                        <TextBlock x:Name="OrderCheckOutLabel"
+                                                   Text="—" Foreground="#334155"
+                                                   VerticalAlignment="Center" FontSize="13"/>
+                                    </Border>
+                                </StackPanel>
+                            <StackPanel Margin="0,0,16,0">
+                                <TextBlock Text="Цінова стратегія" FontSize="12"
+                                           Foreground="#666" Margin="0,0,0,5"/>
+                                <ComboBox x:Name="OrderStrategyBox" Width="180" Height="32"
+                                          SelectionChanged="OrderStrategyBox_SelectionChanged">
+                                    <ComboBoxItem Content="Звичайна" IsSelected="True"/>
+                                    <ComboBoxItem Content="Свято  (+20%)"/>
+                                    <ComboBoxItem Content="Знижка  (−15%)"/>
+                                    <ComboBoxItem Content="Туристичний сезон  (+10%)"/>
+                                </ComboBox>
+                            </StackPanel>
+                            <StackPanel Margin="0,0,16,0" VerticalAlignment="Bottom">
+                                <TextBlock Text="Сума до оплати" FontSize="12"
+                                           Foreground="#666" Margin="0,0,0,5"/>
+                                <Border Background="#EBF4FF" CornerRadius="6"
+                                        Padding="10,0" Height="32">
+                                    <TextBlock x:Name="OrderTotalPreview"
+                                               Text="—" FontSize="14" FontWeight="Bold"
+                                               Foreground="#1565C0"
+                                               VerticalAlignment="Center"/>
+                                </Border>
+                            </StackPanel>
+                        </WrapPanel>
+                        <Button Content="Створити замовлення"
+                                Style="{StaticResource RoundBtn}"
+                                Background="#4A90D9" Padding="18,10"
+                                HorizontalAlignment="Left"
+                                Click="CreateOrder_Click"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+
+                <Border Grid.Row="1" Margin="16" Background="White"
+                        CornerRadius="8" Effect="{StaticResource CardShadow}">
+                    <ListView x:Name="OrdersListView"
+                              BorderThickness="0" Background="Transparent"
+                              SelectionChanged="OrdersListView_SelectionChanged">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="#"             Width="40"
+                                    DisplayMemberBinding="{Binding Id}"/>
+                                <GridViewColumn Header="Гість"         Width="140"
+                                    DisplayMemberBinding="{Binding GuestName}"/>
+                                <GridViewColumn Header="Кімната"       Width="100"
+                                    DisplayMemberBinding="{Binding RoomDisplay}"/>
+                                <GridViewColumn Header="Заїзд"         Width="85"
+                                    DisplayMemberBinding="{Binding BookedCheckIn, StringFormat=dd.MM.yyyy}"/>
+                                <GridViewColumn Header="Виїзд"         Width="85"
+                                    DisplayMemberBinding="{Binding BookedCheckOut, StringFormat=dd.MM.yyyy}"/>
+                                <GridViewColumn Header="Ночей"         Width="55"
+                                    DisplayMemberBinding="{Binding Days}"/>
+                                <GridViewColumn Header="Грн/ніч"       Width="80"
+                                    DisplayMemberBinding="{Binding PricePerDay}"/>
+                                <GridViewColumn Header="Разом (грн)"   Width="95"
+                                    DisplayMemberBinding="{Binding TotalPrice}"/>
+                                <GridViewColumn Header="Міні-бар (грн)" Width="110"
+                                    DisplayMemberBinding="{Binding MiniBarCharge}"/>
+                                <GridViewColumn Header="З міні-баром" Width="110"
+                                    DisplayMemberBinding="{Binding FinalAmount}"/>
+                                <GridViewColumn Header="Статус"        Width="110"
+                                    DisplayMemberBinding="{Binding StatusName}"/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </Border>
+                <Border Grid.Row="2" Background="White" Padding="20,12"
+                        BorderBrush="#DDE6EF" BorderThickness="0,1,0,0">
+                    <Grid>
+                        <WrapPanel VerticalAlignment="Center">
+                            <Button Content="Оплатити"
+                                    Style="{StaticResource RoundBtn}"
+                                    Background="#27AE60" Padding="14,8" Margin="0,0,8,0"
+                                    Click="Pay_Click"/>
+                            <Button Content="Заселити"
+                                    Style="{StaticResource RoundBtn}"
+                                    Background="#4A90D9" Padding="14,8" Margin="0,0,8,0"
+                                    Click="CheckIn_Click"/>
+                            <Border Margin="0,0,8,0"
+                                    Background="#FFF8F0"
+                                    BorderBrush="#F0C080"
+                                    BorderThickness="1"
+                                    CornerRadius="8"
+                                    Padding="10,6">
+                                <StackPanel Orientation="Horizontal">
+                                    <StackPanel Margin="0,0,8,0">
+                                        <TextBlock FontSize="10" Foreground="#B36A00" Margin="2,0,0,3">
+                                            <Run Text="① введіть суму за міні-бар"/>
+                                        </TextBlock>
+                                        <Border BorderBrush="#F0C080" BorderThickness="1"
+                                                CornerRadius="6" Background="White">
+                                            <TextBox x:Name="MiniBarBox" Width="100" BorderThickness="0"
+                                                     Padding="8,5" VerticalContentAlignment="Center"
+                                                     Text="0"/>
+                                        </Border>
+                                    </StackPanel>
+                                    <StackPanel VerticalAlignment="Bottom">
+                                        <TextBlock Text="② потім виселяйте"
+                                                   FontSize="10" Foreground="#B36A00" Margin="0,0,0,3"/>
+                                        <Button Content="Виселити"
+                                                Style="{StaticResource RoundBtn}"
+                                                Background="#E67E22" Padding="14,8"
+                                                Click="CheckOut_Click"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </Border>
+
+                            <Button Content="Скасувати"
+                                    Style="{StaticResource RoundBtn}"
+                                    Background="#E74C3C" Padding="14,8" Margin="0,0,8,0"
+                                    Click="Cancel_Click"/>
+                            <Button Content="🗑  Видалити"
+                                    Style="{StaticResource RoundBtn}"
+                                    Background="#78909C" Padding="14,8"
+                                    ToolTip="Видаляти можна лише завершені або скасовані замовлення"
+                                    Click="DeleteOrder_Click"/>
+                        </WrapPanel>
+                        <TextBlock x:Name="ErrorText"
+                                   HorizontalAlignment="Right" VerticalAlignment="Center"
+                                   Foreground="#E74C3C" FontSize="12"
+                                   TextWrapping="Wrap" MaxWidth="300"/>
+                    </Grid>
+                </Border>
+            </Grid>
+            <Grid x:Name="LogPanel" Visibility="Collapsed">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Grid.Row="0" Background="White" Padding="24,16"
+                        BorderBrush="#DDE6EF" BorderThickness="0,0,0,1">
+                    <TextBlock Text="Журнал" FontSize="20"
+                               FontWeight="Bold" Foreground="#1A2A4A"/>
+                </Border>
+
+                <Grid Grid.Row="1" Margin="16">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="12"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Border Grid.Column="0" Background="White" CornerRadius="8"
+                            Effect="{StaticResource CardShadow}">
+                        <DockPanel>
+                            <Border DockPanel.Dock="Top" Padding="16,12"
+                                    BorderBrush="#EEF2F7" BorderThickness="0,0,0,1">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="👁  " FontSize="14"/>
+                                    <StackPanel>
+                                        <TextBlock Text="Журнал подій"
+                                                   FontWeight="Bold" FontSize="14"
+                                                   Foreground="#1A2A4A"/>
+                                        
+                                    </StackPanel>
+                                </StackPanel>
+                            </Border>
+                            <ListBox x:Name="EventLogList"
+                                     BorderThickness="0"
+                                     Background="Transparent"
+                                     Padding="8"
+                                     FontFamily="Consolas"
+                                     FontSize="12"
+                                     Foreground="#334155"/>
+                        </DockPanel>
+                    </Border>
+                    <Border Grid.Column="2" Background="White" CornerRadius="8"
+                            Effect="{StaticResource CardShadow}">
+                        <DockPanel>
+                            <Border DockPanel.Dock="Top" Padding="16,12"
+                                    BorderBrush="#EEF2F7" BorderThickness="0,0,0,1">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="⌨  " FontSize="14"/>
+                                    <StackPanel>
+                                        <TextBlock Text="Журнал дій"
+                                                   FontWeight="Bold" FontSize="14"
+                                                   Foreground="#1A2A4A"/>
+                                        
+                                    </StackPanel>
+                                </StackPanel>
+                            </Border>
+                            <ListBox x:Name="CommandLogList"
+                                     BorderThickness="0"
+                                     Background="Transparent"
+                                     Padding="8"
+                                     FontFamily="Consolas"
+                                     FontSize="12"
+                                     Foreground="#334155"/>
+                        </DockPanel>
+                    </Border>
+                </Grid>
+            </Grid>
+            <Grid x:Name="PricesPanel" Visibility="Collapsed">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Grid.Row="0" Background="White" Padding="24,16"
+                        BorderBrush="#DDE6EF" BorderThickness="0,0,0,1">
+                    <TextBlock Text="Налаштування цін" FontSize="20"
+                               FontWeight="Bold" Foreground="#1A2A4A"/>
+                </Border>
+
+                <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                    <StackPanel Margin="24,20" MaxWidth="560">
+                        <TextBlock Text="Базові ціни кімнат (грн/ніч)"
+                                   FontSize="13" FontWeight="Bold"
+                                   Foreground="#1A2A4A" Margin="0,0,0,12"/>
+
+                        <Border Background="White" CornerRadius="8" Padding="20"
+                                Margin="0,0,0,16">
+                            <Border.Effect>
+                                <DropShadowEffect BlurRadius="12" ShadowDepth="2"
+                                                  Opacity="0.10" Direction="270"/>
+                            </Border.Effect>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="160"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="12"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="12"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <TextBlock Grid.Row="0" Grid.Column="0"
+                                           Text="🛏  Бюджетний" FontSize="13"
+                                           VerticalAlignment="Center" Foreground="#334155"/>
+                                <TextBox x:Name="PricePoor"
+                                         Grid.Row="0" Grid.Column="1"
+                                         Height="34" Padding="10,0"
+                                         VerticalContentAlignment="Center"
+                                         BorderBrush="#CDD6E0" BorderThickness="1"/>
+
+                                <TextBlock Grid.Row="2" Grid.Column="0"
+                                           Text="🛏  Стандарт" FontSize="13"
+                                           VerticalAlignment="Center" Foreground="#334155"/>
+                                <TextBox x:Name="PriceNormal"
+                                         Grid.Row="2" Grid.Column="1"
+                                         Height="34" Padding="10,0"
+                                         VerticalContentAlignment="Center"
+                                         BorderBrush="#CDD6E0" BorderThickness="1"/>
+
+                                <TextBlock Grid.Row="4" Grid.Column="0"
+                                           Text="🛏  Делюкс" FontSize="13"
+                                           VerticalAlignment="Center" Foreground="#334155"/>
+                                <TextBox x:Name="PriceDeluxe"
+                                         Grid.Row="4" Grid.Column="1"
+                                         Height="34" Padding="10,0"
+                                         VerticalContentAlignment="Center"
+                                         BorderBrush="#CDD6E0" BorderThickness="1"/>
+                            </Grid>
+                        </Border>
+                        <TextBlock Text="Надбавки за додаткові послуги (грн/ніч)"
+                                   FontSize="13" FontWeight="Bold"
+                                   Foreground="#1A2A4A" Margin="0,0,0,12"/>
+
+                        <Border Background="White" CornerRadius="8" Padding="20"
+                                Margin="0,0,0,16">
+                            <Border.Effect>
+                                <DropShadowEffect BlurRadius="12" ShadowDepth="2"
+                                                  Opacity="0.10" Direction="270"/>
+                            </Border.Effect>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="160"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="12"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <TextBlock Grid.Row="0" Grid.Column="0"
+                                           Text="📶  Wi-Fi" FontSize="13"
+                                           VerticalAlignment="Center" Foreground="#334155"/>
+                                <TextBox x:Name="PriceWifi"
+                                         Grid.Row="0" Grid.Column="1"
+                                         Height="34" Padding="10,0"
+                                         VerticalContentAlignment="Center"
+                                         BorderBrush="#CDD6E0" BorderThickness="1"/>
+
+                                <TextBlock Grid.Row="2" Grid.Column="0"
+                                           Text="🍽  All Inclusive" FontSize="13"
+                                           VerticalAlignment="Center" Foreground="#334155"/>
+                                <TextBox x:Name="PriceAllInclusive"
+                                         Grid.Row="2" Grid.Column="1"
+                                         Height="34" Padding="10,0"
+                                         VerticalContentAlignment="Center"
+                                         BorderBrush="#CDD6E0" BorderThickness="1"/>
+                            </Grid>
+                        </Border>
+                        <StackPanel Orientation="Horizontal">
+                            <Button x:Name="SavePricesBtn"
+                                    IsEnabled="False"
+                                    Content="💾  Зберегти зміни"
+                                    Style="{StaticResource RoundBtn}"
+                                    Background="#27AE60"
+                                    Padding="20,10" Margin="0,0,10,0"
+                                    Click="SavePrices_Click"/>
+                            <Button x:Name="ResetPricesBtn"
+                                    IsEnabled="False"
+                                    Content="↺  Скинути до стандарту"
+                                    Style="{StaticResource RoundBtn}"
+                                    Background="#607D8B"
+                                    Padding="20,10"
+                                    Click="ResetPrices_Click"/>
+                        </StackPanel>
+
+                        <TextBlock x:Name="PricesStatusText"
+                                   Margin="0,12,0,0" FontSize="12"
+                                   Foreground="#27AE60"/>
+                    </StackPanel>
+                </ScrollViewer>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
