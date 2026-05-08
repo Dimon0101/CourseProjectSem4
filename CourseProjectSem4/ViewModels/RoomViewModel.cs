@@ -44,8 +44,6 @@ namespace CourseProjectSem4.ViewModels
                 Notify(nameof(StatusTextBrush));
             }
         }
-
-        // Зворотня сумісність
         public bool IsOccupied
         {
             get => _status != RoomStatus.Free;

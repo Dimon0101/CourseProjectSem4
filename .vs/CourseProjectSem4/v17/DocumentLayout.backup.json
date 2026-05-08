@@ -1,90 +1,74 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Uni\\Skibidi\\CourseProjectSem4\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\uni\\skibidi\\courseprojectsem4\\courseprojectsem4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\users\\user\\documents\\github\\courseprojectsem4\\courseprojectsem4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\uni\\skibidi\\courseprojectsem4\\courseprojectsem4\\changepassworddialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\changepassworddialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\uni\\skibidi\\courseprojectsem4\\courseprojectsem4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\uni\\skibidi\\courseprojectsem4\\courseprojectsem4\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\uni\\skibidi\\courseprojectsem4\\courseprojectsem4\\viewmodels\\roomviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\users\\user\\documents\\github\\courseprojectsem4\\courseprojectsem4\\viewmodels\\roomviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\viewmodels\\roomviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\uni\\skibidi\\courseprojectsem4\\courseprojectsem4\\adminlogindialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\adminlogindialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\users\\user\\documents\\github\\courseprojectsem4\\courseprojectsem4\\templates\\checkoutprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\templates\\checkoutprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\uni\\skibidi\\courseprojectsem4\\courseprojectsem4\\adminsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\adminsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\users\\user\\documents\\github\\courseprojectsem4\\courseprojectsem4\\state\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\state\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\obj\\Debug\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CourseProjectSem4\\obj\\Debug\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\obj\\Debug\\net8.0-windows\\CourseProjectSem4.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CourseProjectSem4\\obj\\Debug\\net8.0-windows\\CourseProjectSem4.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\uni\\skibidi\\courseprojectsem4\\courseprojectsem4\\courseprojectsem4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\courseprojectsem4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\uni\\skibidi\\courseprojectsem4\\courseprojectsem4\\converters\\converters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\converters\\converters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\uni\\skibidi\\courseprojectsem4\\courseprojectsem4\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\Models\\RoomViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CourseProjectSem4\\Models\\RoomViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\uni\\skibidi\\courseprojectsem4\\courseprojectsem4\\database\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\database\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\uni\\skibidi\\courseprojectsem4\\courseprojectsem4\\database\\hotelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\database\\hotelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\uni\\skibidi\\courseprojectsem4\\courseprojectsem4\\database\\hoteldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\database\\hoteldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\uni\\skibidi\\courseprojectsem4\\courseprojectsem4\\base\\roomcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\base\\roomcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\uni\\skibidi\\courseprojectsem4\\courseprojectsem4\\base\\roombuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\base\\roombuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\uni\\skibidi\\courseprojectsem4\\courseprojectsem4\\strategics\\ipricestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\users\\user\\documents\\github\\courseprojectsem4\\courseprojectsem4\\strategics\\ipricestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\strategics\\ipricestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\uni\\skibidi\\courseprojectsem4\\courseprojectsem4\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\users\\user\\documents\\github\\courseprojectsem4\\courseprojectsem4\\base\\roombuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\base\\roombuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\Base\\Converters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CourseProjectSem4\\Base\\Converters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\users\\user\\documents\\github\\courseprojectsem4\\courseprojectsem4\\state\\orderstates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\state\\orderstates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\users\\user\\documents\\github\\courseprojectsem4\\courseprojectsem4\\base\\priceconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\base\\priceconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\users\\user\\documents\\github\\courseprojectsem4\\courseprojectsem4\\converters\\converters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\converters\\converters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\users\\user\\documents\\github\\courseprojectsem4\\courseprojectsem4\\observers\\orderobservers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\observers\\orderobservers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\users\\user\\documents\\github\\courseprojectsem4\\courseprojectsem4\\observers\\iorderobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\observers\\iorderobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\users\\user\\documents\\github\\courseprojectsem4\\courseprojectsem4\\commands\\ordercommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\commands\\ordercommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\users\\user\\documents\\github\\courseprojectsem4\\courseprojectsem4\\commands\\iordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\commands\\iordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\users\\user\\documents\\github\\courseprojectsem4\\courseprojectsem4\\database\\hotelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\database\\hotelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\users\\user\\documents\\github\\courseprojectsem4\\courseprojectsem4\\database\\hoteldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\database\\hoteldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\users\\user\\documents\\github\\courseprojectsem4\\courseprojectsem4\\database\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\database\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|c:\\users\\user\\documents\\github\\courseprojectsem4\\courseprojectsem4\\base\\roomcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F96541F8-3317-455F-B46B-FC61769B25EE}|CourseProjectSem4\\CourseProjectSem4.csproj|solutionrelative:courseprojectsem4\\base\\roomcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,263 +78,228 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ChangePasswordDialog.xaml",
-              "DocumentMoniker": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\ChangePasswordDialog.xaml",
-              "RelativeDocumentMoniker": "CourseProjectSem4\\ChangePasswordDialog.xaml",
-              "ToolTip": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\ChangePasswordDialog.xaml",
-              "RelativeToolTip": "CourseProjectSem4\\ChangePasswordDialog.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-04T20:01:05.747Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "DocumentMoniker": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\obj\\Debug\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "RelativeDocumentMoniker": "CourseProjectSem4\\obj\\Debug\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "ToolTip": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\obj\\Debug\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "RelativeToolTip": "CourseProjectSem4\\obj\\Debug\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T08:44:48.854Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AdminLoginDialog.xaml",
-              "DocumentMoniker": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\AdminLoginDialog.xaml",
-              "RelativeDocumentMoniker": "CourseProjectSem4\\AdminLoginDialog.xaml",
-              "ToolTip": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\AdminLoginDialog.xaml",
-              "RelativeToolTip": "CourseProjectSem4\\AdminLoginDialog.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-01T08:41:36.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RoomViewModel.cs",
-              "DocumentMoniker": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\Models\\RoomViewModel.cs",
-              "RelativeDocumentMoniker": "CourseProjectSem4\\Models\\RoomViewModel.cs",
-              "ToolTip": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\Models\\RoomViewModel.cs",
-              "RelativeToolTip": "CourseProjectSem4\\Models\\RoomViewModel.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T08:40:10.882Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RoomViewModel.cs",
-              "DocumentMoniker": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\ViewModels\\RoomViewModel.cs",
-              "RelativeDocumentMoniker": "CourseProjectSem4\\ViewModels\\RoomViewModel.cs",
-              "ToolTip": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\ViewModels\\RoomViewModel.cs",
-              "RelativeToolTip": "CourseProjectSem4\\ViewModels\\RoomViewModel.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwCUAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T08:38:20.615Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CourseProjectSem4.AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\obj\\Debug\\net8.0-windows\\CourseProjectSem4.AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "CourseProjectSem4\\obj\\Debug\\net8.0-windows\\CourseProjectSem4.AssemblyInfo.cs",
-              "ToolTip": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\obj\\Debug\\net8.0-windows\\CourseProjectSem4.AssemblyInfo.cs",
-              "RelativeToolTip": "CourseProjectSem4\\obj\\Debug\\net8.0-windows\\CourseProjectSem4.AssemblyInfo.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAADwvw8AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T08:38:17.861Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Converters.cs",
-              "DocumentMoniker": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\Converters\\Converters.cs",
-              "RelativeDocumentMoniker": "CourseProjectSem4\\Converters\\Converters.cs",
-              "ToolTip": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\Converters\\Converters.cs",
-              "RelativeToolTip": "CourseProjectSem4\\Converters\\Converters.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T08:38:16.385Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Entities.cs",
-              "DocumentMoniker": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\Database\\Entities.cs",
-              "RelativeDocumentMoniker": "CourseProjectSem4\\Database\\Entities.cs",
-              "ToolTip": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\Database\\Entities.cs",
-              "RelativeToolTip": "CourseProjectSem4\\Database\\Entities.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T11:05:55.719Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "HotelContext.cs",
-              "DocumentMoniker": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\Database\\HotelContext.cs",
-              "RelativeDocumentMoniker": "CourseProjectSem4\\Database\\HotelContext.cs",
-              "ToolTip": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\Database\\HotelContext.cs",
-              "RelativeToolTip": "CourseProjectSem4\\Database\\HotelContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T10:59:12.99Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "HotelDb.cs",
-              "DocumentMoniker": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\Database\\HotelDb.cs",
-              "RelativeDocumentMoniker": "CourseProjectSem4\\Database\\HotelDb.cs",
-              "ToolTip": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\Database\\HotelDb.cs",
-              "RelativeToolTip": "CourseProjectSem4\\Database\\HotelDb.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T10:59:06.195Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AdminSession.cs",
-              "DocumentMoniker": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\AdminSession.cs",
-              "RelativeDocumentMoniker": "CourseProjectSem4\\AdminSession.cs",
-              "ToolTip": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\AdminSession.cs",
-              "RelativeToolTip": "CourseProjectSem4\\AdminSession.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T10:53:12.431Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Converters.cs",
-              "DocumentMoniker": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\Base\\Converters.cs",
-              "RelativeDocumentMoniker": "CourseProjectSem4\\Base\\Converters.cs",
-              "ToolTip": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\Base\\Converters.cs",
-              "RelativeToolTip": "CourseProjectSem4\\Base\\Converters.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T11:21:12.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RoomBuilder.cs",
-              "DocumentMoniker": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\Base\\RoomBuilder.cs",
-              "RelativeDocumentMoniker": "CourseProjectSem4\\Base\\RoomBuilder.cs",
-              "ToolTip": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\Base\\RoomBuilder.cs",
-              "RelativeToolTip": "CourseProjectSem4\\Base\\RoomBuilder.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T14:44:49.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IPriceStrategy.cs",
-              "DocumentMoniker": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\Strategics\\IPriceStrategy.cs",
-              "RelativeDocumentMoniker": "CourseProjectSem4\\Strategics\\IPriceStrategy.cs",
-              "ToolTip": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\Strategics\\IPriceStrategy.cs",
-              "RelativeToolTip": "CourseProjectSem4\\Strategics\\IPriceStrategy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T12:29:49.927Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "RoomCreator.cs",
-              "DocumentMoniker": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\Base\\RoomCreator.cs",
-              "RelativeDocumentMoniker": "CourseProjectSem4\\Base\\RoomCreator.cs",
-              "ToolTip": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\Base\\RoomCreator.cs",
-              "RelativeToolTip": "CourseProjectSem4\\Base\\RoomCreator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T18:08:10.705Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\App.xaml",
-              "RelativeDocumentMoniker": "CourseProjectSem4\\App.xaml",
-              "ToolTip": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\App.xaml",
-              "RelativeToolTip": "CourseProjectSem4\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-18T18:07:47.921Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CourseProjectSem4.csproj",
-              "DocumentMoniker": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\CourseProjectSem4.csproj",
-              "RelativeDocumentMoniker": "CourseProjectSem4\\CourseProjectSem4.csproj",
-              "ToolTip": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\CourseProjectSem4.csproj",
-              "RelativeToolTip": "CourseProjectSem4\\CourseProjectSem4.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-18T18:07:24.809Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Room.cs",
-              "DocumentMoniker": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\Models\\Room.cs",
-              "RelativeDocumentMoniker": "CourseProjectSem4\\Models\\Room.cs",
-              "ToolTip": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\Models\\Room.cs",
-              "RelativeToolTip": "CourseProjectSem4\\Models\\Room.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAA5wDIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T18:05:49.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\App.xaml.cs",
-              "RelativeDocumentMoniker": "CourseProjectSem4\\App.xaml.cs",
-              "ToolTip": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\App.xaml.cs",
-              "RelativeToolTip": "CourseProjectSem4\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T18:03:38.912Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "CourseProjectSem4\\MainWindow.xaml",
-              "ToolTip": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\MainWindow.xaml",
-              "RelativeToolTip": "CourseProjectSem4\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-18T17:59:43.823Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "CourseProjectSem4\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Uni\\Skibidi\\CourseProjectSem4\\CourseProjectSem4\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\MainWindow.xaml.cs",
               "RelativeToolTip": "CourseProjectSem4\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAkBAAAAAAAAAAAQwBAAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T17:59:41.206Z",
+              "WhenOpened": "2026-05-08T11:57:39.635Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoomViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\ViewModels\\RoomViewModel.cs",
+              "RelativeDocumentMoniker": "CourseProjectSem4\\ViewModels\\RoomViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\ViewModels\\RoomViewModel.cs",
+              "RelativeToolTip": "CourseProjectSem4\\ViewModels\\RoomViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T11:55:49.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderCommands.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\Commands\\OrderCommands.cs",
+              "RelativeDocumentMoniker": "CourseProjectSem4\\Commands\\OrderCommands.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\Commands\\OrderCommands.cs",
+              "RelativeToolTip": "CourseProjectSem4\\Commands\\OrderCommands.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T11:50:12.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IOrderCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\Commands\\IOrderCommand.cs",
+              "RelativeDocumentMoniker": "CourseProjectSem4\\Commands\\IOrderCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\Commands\\IOrderCommand.cs",
+              "RelativeToolTip": "CourseProjectSem4\\Commands\\IOrderCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T11:50:11.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderObservers.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\Observers\\OrderObservers.cs",
+              "RelativeDocumentMoniker": "CourseProjectSem4\\Observers\\OrderObservers.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\Observers\\OrderObservers.cs",
+              "RelativeToolTip": "CourseProjectSem4\\Observers\\OrderObservers.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T11:50:09.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IOrderObserver.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\Observers\\IOrderObserver.cs",
+              "RelativeDocumentMoniker": "CourseProjectSem4\\Observers\\IOrderObserver.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\Observers\\IOrderObserver.cs",
+              "RelativeToolTip": "CourseProjectSem4\\Observers\\IOrderObserver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T11:50:03.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderStates.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\State\\OrderStates.cs",
+              "RelativeDocumentMoniker": "CourseProjectSem4\\State\\OrderStates.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\State\\OrderStates.cs",
+              "RelativeToolTip": "CourseProjectSem4\\State\\OrderStates.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T11:47:29.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Converters.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\Converters\\Converters.cs",
+              "RelativeDocumentMoniker": "CourseProjectSem4\\Converters\\Converters.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\Converters\\Converters.cs",
+              "RelativeToolTip": "CourseProjectSem4\\Converters\\Converters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T11:19:41.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\State\\Order.cs",
+              "RelativeDocumentMoniker": "CourseProjectSem4\\State\\Order.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\State\\Order.cs",
+              "RelativeToolTip": "CourseProjectSem4\\State\\Order.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAcwGIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T11:18:41.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RoomCreator.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\Base\\RoomCreator.cs",
+              "RelativeDocumentMoniker": "CourseProjectSem4\\Base\\RoomCreator.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\Base\\RoomCreator.cs",
+              "RelativeToolTip": "CourseProjectSem4\\Base\\RoomCreator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T11:10:48.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PriceConfig.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\Base\\PriceConfig.cs",
+              "RelativeDocumentMoniker": "CourseProjectSem4\\Base\\PriceConfig.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\Base\\PriceConfig.cs",
+              "RelativeToolTip": "CourseProjectSem4\\Base\\PriceConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T11:09:55.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Entities.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\Database\\Entities.cs",
+              "RelativeDocumentMoniker": "CourseProjectSem4\\Database\\Entities.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\Database\\Entities.cs",
+              "RelativeToolTip": "CourseProjectSem4\\Database\\Entities.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T11:09:29.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HotelContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\Database\\HotelContext.cs",
+              "RelativeDocumentMoniker": "CourseProjectSem4\\Database\\HotelContext.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\Database\\HotelContext.cs",
+              "RelativeToolTip": "CourseProjectSem4\\Database\\HotelContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T11:09:40.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPriceStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\Strategics\\IPriceStrategy.cs",
+              "RelativeDocumentMoniker": "CourseProjectSem4\\Strategics\\IPriceStrategy.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\Strategics\\IPriceStrategy.cs",
+              "RelativeToolTip": "CourseProjectSem4\\Strategics\\IPriceStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T11:09:34.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CheckOutProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\Templates\\CheckOutProcessor.cs",
+              "RelativeDocumentMoniker": "CourseProjectSem4\\Templates\\CheckOutProcessor.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\Templates\\CheckOutProcessor.cs",
+              "RelativeToolTip": "CourseProjectSem4\\Templates\\CheckOutProcessor.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAiwFQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T11:09:33.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RoomBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\Base\\RoomBuilder.cs",
+              "RelativeDocumentMoniker": "CourseProjectSem4\\Base\\RoomBuilder.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\Base\\RoomBuilder.cs",
+              "RelativeToolTip": "CourseProjectSem4\\Base\\RoomBuilder.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T11:06:39.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HotelDb.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\Database\\HotelDb.cs",
+              "RelativeDocumentMoniker": "CourseProjectSem4\\Database\\HotelDb.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CourseProjectSem4\\CourseProjectSem4\\Database\\HotelDb.cs",
+              "RelativeToolTip": "CourseProjectSem4\\Database\\HotelDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T10:01:45.673Z"
             }
           ]
         }
